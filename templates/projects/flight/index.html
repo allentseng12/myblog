@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='flight/css/style.css') }}">
 </head>
 <body class="min-h-screen flex flex-col">
-
+{% include "partials/back_button.html" %}
     <nav class="bg-white shadow-sm px-8 py-4 flex justify-between items-center">
         <div class="text-2xl font-bold text-blue-700 tracking-tight">
             <i class="fa-solid fa-earth-americas mr-2 text-blue-500"></i>FlightRadar
